@@ -1,0 +1,13 @@
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10px;
+}
+
+.button-2x {
+  grid-column: span 2;
+}
+
+.dark {
+  background-color: #323232;
+}
